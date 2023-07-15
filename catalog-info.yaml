@@ -12,10 +12,18 @@ metadata:
     - url: https://github.com/VenkataMadana/bs-demo-node-1
       title: Demo node service code in Github
       icon: code
+    - url: https://jenkins
+      title: Jenkins
+      icon: code
+    - url: https://logs/
+      title: Elastic search logs
+      icon: Logs
   annotations:
     github.com/project-slug: VenkataMadana/bs-demo-node-1
     goharbor.io/repository-slug: 'VenkataMadana/bs-demo-node-1'
     jenkins.io/github-folder: 'VenkataMadana/bs-demo-node-1'
+    pagerduty.com/service-id: PZDAG59
+    newrelic.com/dashboard-guid: 'MzcwMjEwN3xWSVp8REFTSEJPQVJEfGRhOjkwMDk4'
     backstage.io/techdocs-ref: dir:.
 spec:
   type: service
