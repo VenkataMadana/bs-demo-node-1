@@ -2,8 +2,20 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: "demo-node-1"
+  description: Sample React web app
+  labels:
+    system: web-apps
+  tags:
+    - javascript
+    - react
+  links:
+    - url: https://github.com/VenkataMadana/bs-demo-node-1
+      title: Demo node service code in Github
+      icon: code
   annotations:
     github.com/project-slug: VenkataMadana/bs-demo-node-1
+    goharbor.io/repository-slug: 'VenkataMadana/bs-demo-node-1'
+    jenkins.io/github-folder: 'VenkataMadana/bs-demo-node-1'
     backstage.io/techdocs-ref: dir:.
 spec:
   type: service
