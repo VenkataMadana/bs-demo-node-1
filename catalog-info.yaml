@@ -73,5 +73,5 @@ spec:
   owner: sample-team
   system: sample-system
   definition:
-    $text: https://petstore.swagger.io/v2/swagger.json
+    $text: https://petstore.swagger.io/v2/swagger.yaml
 
