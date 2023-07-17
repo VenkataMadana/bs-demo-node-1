@@ -34,9 +34,9 @@ spec:
   system: sample-system
   providesApis:
     - sample-service
-  dependsOn:
-    # - Component:sample-service-2
-    - Resource:sample-s3-bucket
+  # dependsOn:
+  #   # - Component:sample-service-2
+  #   - Resource:sample-s3-bucket
 ---
 apiVersion: backstage.io/v1alpha1
 kind: System
