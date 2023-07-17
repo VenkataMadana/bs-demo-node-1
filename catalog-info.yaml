@@ -102,23 +102,22 @@ spec:
   owner: sample-team
   system: sample-system
   subcomponentOf: sample-service
-# ---
-# apiVersion: backstage.io/v1alpha1
-# kind: Group
-# metadata:
-#   name: yaml-team
-#   title: YAML team
-#   description: A team which is defined in YAML
-#   annotations:
-#     backstage.io/techdocs-ref: dir:.
-# spec:
-#   type: team
-#   profile:
-#     displayName: YAML team
-#     email: team-alpha@example.com
-#     picture: https://avatars.dicebear.com/api/identicon/team-alpha@example.com.svg?background=%23fff&margin=25
-#   children: []
-
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: yaml-team
+  title: YAML team
+  description: A team which is defined in YAML
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: team
+  profile:
+    displayName: YAML team
+    email: team-alpha@example.com
+    picture: https://avatars.dicebear.com/api/identicon/team-alpha@example.com.svg?background=%23fff&margin=25
+  children: []
 # ---
 # apiVersion: backstage.io/v1alpha1
 # kind: Domain
@@ -154,16 +153,16 @@ spec:
 #     displayName: Venkat Reddy
 #     picture: https://avatars.githubusercontent.com/u/70260562?s=200&v=4
 #   memberOf: [operate-first]
----
-apiVersion: backstage.io/v1alpha1
-kind: User
-metadata:
-  name: glenn-keighley
-  title: EVP, Engineering & Software
-  description: EVP, Engineering & Software
-spec:
-  profile:
-    email: Glenn.Keighley@patientpoint.com
-    displayName: Glenn Keighley
-    picture: https://avatars.githubusercontent.com/u/70260562?s=200&v=4
-  memberOf: [operate-first]
+# ---
+# apiVersion: backstage.io/v1alpha1
+# kind: User
+# metadata:
+#   name: glenn-keighley
+#   title: EVP, Engineering & Software
+#   description: EVP, Engineering & Software
+# spec:
+#   profile:
+#     email: Glenn.Keighley@patientpoint.com
+#     displayName: Glenn Keighley
+#     picture: https://avatars.githubusercontent.com/u/70260562?s=200&v=4
+#   memberOf: [operate-first]
