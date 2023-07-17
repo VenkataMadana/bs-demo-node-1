@@ -34,6 +34,9 @@ spec:
   system: sample-system
   providesApis:
     - sample-service
+  dependsOn:
+    # - Component:sample-service-2
+    - Resource:sample-s3-bucket
 ---
 apiVersion: backstage.io/v1alpha1
 kind: System
@@ -76,4 +79,23 @@ spec:
   system: sample-system
   definition:
     $text: https://github.com/VenkataMadana/bs-demo-node-1/blob/main/petstore.yaml
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: sample-s3-bucket
+  description: The s3 bucket with the sample data in it. Doesn't really exist.
+spec:
+  type: s3-bucket
+  owner: sample-team
+  system: sample-system
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: sample-domain
+  description: Sample domain which has stuff for demoing.
+spec:
+  owner: sample-team
 
