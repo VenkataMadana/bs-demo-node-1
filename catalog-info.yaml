@@ -102,21 +102,21 @@ spec:
   owner: sample-team
   system: sample-system
   subcomponentOf: sample-service
----
-apiVersion: backstage.io/v1alpha1
-kind: Group
-metadata:
-  name: sample-team
-  description: Core development unit
-spec:
-  type: business-unit
-  profile:
-    displayName: Core Development API Team
-    email: core-dev@example.com
-    picture: https://example.com/groups/bu-infrastructure.jpeg
-  parent: ops
-  children: []
-  members: []
+# ---
+# apiVersion: backstage.io/v1alpha1
+# kind: Group
+# metadata:
+#   name: sample-team
+#   description: Core development unit
+# spec:
+#   type: business-unit
+#   profile:
+#     displayName: Core Development API Team
+#     email: core-dev@example.com
+#     picture: https://example.com/groups/bu-infrastructure.jpeg
+#   parent: ops
+#   children: []
+#   members: []
 # ---
 # apiVersion: backstage.io/v1alpha1
 # kind: Domain
