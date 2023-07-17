@@ -31,5 +31,15 @@ spec:
   type: service
   lifecycle: production
   owner: "sample-team"
-  system: demo-system
+  system: sample-system
+---
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  title: Sample System
+  name: sample-system
+  description: Sample System, which is good for demoing.
+spec:
+  owner: sample-team
+  domain: sample-domain
 
