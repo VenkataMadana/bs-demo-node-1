@@ -154,16 +154,16 @@ spec:
 #     displayName: Venkat Reddy
 #     picture: https://avatars.githubusercontent.com/u/70260562?s=200&v=4
 #   memberOf: [operate-first]
-# ---
-# apiVersion: backstage.io/v1alpha1
-# kind: User
-# metadata:
-#   name: glenn-keighley
-#   title: EVP, Engineering & Software
-#   description: EVP, Engineering & Software
-# spec:
-#   profile:
-#     email: Glenn.Keighley@patientpoint.com
-#     displayName: Glenn Keighley
-#     picture: https://avatars.githubusercontent.com/u/70260562?s=200&v=4
-#   memberOf: [operate-first]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: glenn-keighley
+  title: EVP, Engineering & Software
+  description: EVP, Engineering & Software
+spec:
+  profile:
+    email: Glenn.Keighley@patientpoint.com
+    displayName: Glenn Keighley
+    picture: https://avatars.githubusercontent.com/u/70260562?s=200&v=4
+  memberOf: [operate-first]
