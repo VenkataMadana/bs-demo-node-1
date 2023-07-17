@@ -32,6 +32,8 @@ spec:
   lifecycle: production
   owner: "sample-team"
   system: sample-system
+  providesApis:
+    - sample-service
 ---
 apiVersion: backstage.io/v1alpha1
 kind: System
