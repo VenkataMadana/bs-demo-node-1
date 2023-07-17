@@ -67,8 +67,8 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-  title: Sample OpenApi Ref API
-  name: open-api-ref-sample
+  title: Sample OpenApi Petstore API
+  name: open-api-petstore-sample
   description: Sample catalog file referencing Petstore openapi spec
   tags:
     - unstable
