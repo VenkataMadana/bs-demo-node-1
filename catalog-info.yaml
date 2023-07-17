@@ -106,18 +106,17 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-  name: yaml-team
-  title: YAML team
-  description: A team which is defined in YAML
-  annotations:
-    backstage.io/techdocs-ref: dir:.
+  name: sample-team
+  description: Core development unit
 spec:
-  type: team
+  type: business-unit
   profile:
-    displayName: YAML team
-    email: team-alpha@example.com
-    picture: https://avatars.dicebear.com/api/identicon/team-alpha@example.com.svg?background=%23fff&margin=25
+    displayName: Core Development API Team
+    email: core-dev@example.com
+    picture: https://example.com/groups/bu-infrastructure.jpeg
+  parent: ops
   children: []
+  members: []
 # ---
 # apiVersion: backstage.io/v1alpha1
 # kind: Domain
