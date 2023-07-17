@@ -34,6 +34,7 @@ spec:
   system: sample-system
   providesApis:
     - sample-service
+    - open-api-petstore-sample
   dependsOn:
     # - Component:sample-service-2
     - Resource:sample-s3-bucket
